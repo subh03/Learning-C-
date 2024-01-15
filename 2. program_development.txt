@@ -1,0 +1,54 @@
+#programming paradigms 
+1. monolithic programming - basic - old languages - all code is in one body 
+like only one programmer can write it at a time 
+cannot be broken down in pieces 
+
+2. modular/procedural programming (famous - C language)
+reusing same code using function 
+break bigger task into smaller tasks 
+teamwork can be done 
+
+3. object-oriented prpgramming (C++)
+keeping the data and function together and defining it as a class  
+class is resuable 
+higher level of abstraction 
+
+4. aspect-oriented / component assembly programming 
+
+EVERYTHING IS SAME 
+ONLY THE WAY TO ORGANISE CODE IS CHANGING 
+
+
+ALGORITHM = procedure 
+algorithm -> program 
+pseudocode   C++
+             syntax 
+
+FLOWCHART 
+used when monolithic was there 
+it reduced over time 
+
+used to show the flow of control of a program 
+input -> process -> output 
+used in academics - not used nowadays 
+
+STEPS INVOLVED IN DEVELOPMENT AND EXECUTION OF A PROGRAM 
+1. editing - typing the program 
+2. compiling - converting to machine code 
+3. linking libraries - readymade code provided by the language itself (saves times) - development stops here 
+4. loading - the machine code is brought into the main memory (code section)
+5. execution - space is taken in the stack section for variable used in the program 
+
+all these should be together all at once place - called IDE (integrated development environment)
+
+C++ -> turbo C++ 
+Xcode 
+Codeblocks 
+Eclipse 
+VS code 
+
+in some cases we have to integrate compiler with the IDE 
+
+main memory -> stack, heap, code section 
+
+heap -> dynamic memory allocation 

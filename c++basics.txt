@@ -1,0 +1,150 @@
+data types 
+
+data
+    1. numeric eg - 1,2.5,667
+    2. character / alphabetic - amit, 120 - A 
+
+numeric 
+    1. integer 
+    2. floating (decimal)
+
+1 byte can store 0-255 values 
+1 byte = 8 bits 
+
+data types :
+    1. primitive 
+        a. integral 
+            i. int 
+            ii. char 
+        b. boolean 
+        c. floating point 
+            i. float 
+            ii. double 
+    
+    2. user defined 
+        a. cnum 
+        b. structure 
+        c. union 
+        d. class 
+    
+    3. derived 
+        a. array 
+        b. pointer 
+        c. reference 
+
+>> data type   size (bytes)    range of values 
+->  int         2 or 4          -32768 to 32767
+    float       4               -3.4x10^-38 to 3.4x10^38 
+    double      8               -1.7x10^-308 to 1.7x10^308 
+->  char        1               -128 to 127
+    bool        undefined        true/false 
+
+
+# modifiers - to modify the data types 
+1. unsigned : can only be used with int and character 
+2. long : can be used for double or int 
+
+#variable -> to store data 
+
+int rollno; 
+int rollno=10;
+
+char group='A';
+
+float price=12.75f;
+>> write f if you wanna write float 
+
+every variable has an address and will take 2 bytes 
+befoer storing actual data - the variable has a garbage value 
+
+how to take the variable name :
+x1 
+1x wrong 
+
+rollno; 
+roll no; wrong
+roll_no;
+
+OPERATORS : 
+
+ARITHMETIC + - * / % 
+typecasting
+we cant perform % operator on float datatypes - only allowed in char and int 
+
+RELATIONAL 
+LOGICAL 
+BITWISE 
+INCREMENT/DECREMENT 
+ASSIGNMENT 
+
+PRECEDENCE and EXPRESSIONS
+basically writing the formulas in code 
+
+precedence = priority of operator 
+() -> 3
+*, /, % -> 2
++. - -> 1
+
+sqrt() 
+
+COMPOUND ASSIGNMENT 
+
++= 
+-=
+*=
+%=
+
+&= 
+
+<<=
+>>=
+
+int a=10,b=5,c=15;
+int sum=5;
+
+sum = sum + a;
+can also be written as 
+sum += a;
+
+sum = sum + a + b + c;
+can also be written as 
+sum = sum + a;   sum += a;
+sum = sum + b;   sum += b;
+sum = sum + c;   sum += c;
+
+int a=10,b=5,c=15;
+int prod = 1;
+prod = prod*a*b*c;
+can also be written as 
+prod *= a*b*c;
+
+//INCREMENT DECREMENT OPERATORS 
+
+int i = 10;
+i = i + 1;
+can also be writen as 
+i += 1;
+can also be written as 
+i ++;
+
+pre increment 
+int x=5, y;
+y=++x;
+this means that x is increased by 1 and then assigned or stored in y 
+x=6
+y=6
+
+post increment 
+y=x++;
+first assign and then increment 
+y=5
+x=6
+
+pre decrement - same logic 
+
+post decrement - same logic 
+
+//OVERFLOW
+when the value is more than the capacity - it cycles 
+
+//BITWISE OPERATOR 

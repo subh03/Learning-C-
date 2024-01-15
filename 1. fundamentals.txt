@@ -1,0 +1,70 @@
+how computers work : 
+
+cpu = alu (arithmetic and logical unit) + cu (control unit)
+main memory -> cpu 
+
+HDD -> files -
+1. program files : notepad.exe
+2. data files : mytext.txt 
+
+main memory = workspace = primary memory -> cpu can work on it  
+
+I/P buffer ; O/P buffer 
+
+Binary number system 
+low voltage = 0 = off
+high voltage = 1 = on 
+
+1 bit = 0 or 1 
+1 byte = 8 bits 
+
+each pattern of bits can be taken as an intruction 
+
+number of bits = 2^n combinations 
+
+0 - 0 
+1 - 1 
+2 - 10
+3 - 11
+4 - 100
+5 - 101
+.
+.
+.
+
+Binary = {0,1}
+Octal = {0, 1, 2, 3, 4, 5, 6, 7}
+Decimal = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}
+HexaDecimal = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F}
+
+computers = programmable calculators 
+program = data + instructions 
+we have to know the procedure (instruction) and make it a program
+
+natural lang -> programming lang -> compiler/interpreter -> machine language 
+
+low-level language -> machine language ; assembly language 
+high-level language -> C, C++, Java, Python, C#
+
+Compiler / Interpreter 
+1. check for errors - in the source code 
+2. convert into machine code 
+3. execution of a program 
+
+compiler is not involved in execution, interpreter does 
+
+test.cpp -> compiled to -> test.exe -> execution (source code is not used anymore)
+test.js -> chrome will be executing this code - works as an interpreter for the js file 
+(line by line translation and execution) + wont create a exe file for js + will be translated as many times 
+its getting executed + will be executed till error comes 
+
+compilers are faster 
+
+interpretable programs are easier than compiler based language since part of the code is executed till the 
+error appears 
+
+OPERATING SYSTEM - it is a program which can self-execute (master program)
+provides for an environment for the user to do operations 
+
+programs cant access the hardware directly - it has to make a request to the OS for the access - it does that
+by usinf system calls (APIs - application program interface)
